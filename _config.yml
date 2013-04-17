@@ -5,7 +5,7 @@ auto: true
 rdiscount:
   extensions: [smart]
 
-name: derivative d
+name: derivative&middot;d
 url: http://derivatived.com
 description: A fantastic blog that is fantastic.
 twitter: DerivativeD
