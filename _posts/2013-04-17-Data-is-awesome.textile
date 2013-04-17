@@ -1,4 +1,4 @@
--title: Data Is Awesome 
+{{post.title}} 
 
 The advances of modern technology has allowed society to access an unprecedented amount of information. Typically, when the word data is used people tend to think of large sets of numbers, possibly involving finance or government-funded studies, i.e. what many would describe as “boring”, and something that might not be applicable to everyday life. What people do not realize is data is anything but dull. If you are even the tiniest bit interested about any subject, I can guarantee you there is not only a whole slew of data around it, but data you can actually use.
 
