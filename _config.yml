@@ -5,9 +5,9 @@ auto: true
 rdiscount:
   extensions: [smart]
 
-name: Zach Holman
-url: http://zachholman.com
+name: derivative d
+url: http://derivatived.com
 description: A fantastic blog that is fantastic.
-twitter: holman
-github: holman
+twitter: DerivativeD
+github: derivatived
 gravatar_url: http://gravatar.com/avatar/6f63cde8b16b035280ca615f621a6c8c
