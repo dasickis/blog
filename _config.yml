@@ -5,7 +5,8 @@ auto: true
 rdiscount:
   extensions: [smart]
 
-name: derivative&#183;d
+name: derivatived
+phonetic: derivative&#183;d
 url: http://blog.derivatived.com
 description: Making data user friendly.
 twitter: derivatived
