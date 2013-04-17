@@ -5,8 +5,8 @@ auto: true
 rdiscount:
   extensions: [smart]
 
-name: derivative&middot;d
-url: http://derivatived.com
+name: derivative&#183;d
+url: http://blog.derivatived.com
 description: Making data user friendly.
 twitter: derivatived
 github: derivatived
