@@ -1,6 +1,4 @@
 
-{{page.title}}
-
 The advances of modern technology has allowed society to access an unprecedented amount of information. Typically, when the word data is used people tend to think of large sets of numbers, possibly involving finance or government-funded studies, i.e. what many would describe as “boring”, and something that might not be applicable to everyday life. What people do not realize is data is anything but dull. If you are even the tiniest bit interested about any subject, I can guarantee you there is not only a whole slew of data around it, but data you can actually use.
 
 I feel it’s safe to assume you all like romantic relationships, or at very least enjoy canoodling with someone you are attracted to. Increasingly people are turning to online dating sites to help fulfill this need. Well, services like OkCupid.com use data so people can use these sites to maximize dates and hookups. They do this by providing details on factors such as what type of pictures one should put up in order to maximize attractiveness, what is the most effective way to message someone for the first time, and even provides information on what certain races are interested in. Users can employ these statistics to use these websites in the most efficient manner possible to gain dates and the late-night fun time that hopefully accompanies them.
