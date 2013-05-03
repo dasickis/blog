@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Data is Awsome
+title: Self Driving Car!
 category: posts
 ---
 {{page.title}}  
