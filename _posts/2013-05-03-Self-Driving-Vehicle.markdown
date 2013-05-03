@@ -15,8 +15,8 @@ The <a href="bit.ly/12ScLP1">first meeting</a> will be held on Thursday, May 30t
 
 We're all really excited about doing this, because face it, we all need a Jetson car! More importantly, it'll get Praful (a terrible driver/half-robot) off the road for good. 
 
-For more information check out our meetup page https://bitly.com/13D8ca3 
+For more information check out our meetup page <a href="https://bitly.com/13D8ca3">https://bitly.com/13D8ca3</a>
 
-Our github bit.ly/12BNWWm
+Our github <a href="bit.ly/12BNWWm">bit.ly/12BNWWm</a>
 
-Or follow us on twitter @derivatived
+Or follow us on twitter <a href="https://twitter.com/DerivativeD">@derivatived</a>
