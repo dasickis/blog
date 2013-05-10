@@ -5,7 +5,7 @@ category: posts
 ---
 {{page.title}}  
 
-To continue on with the self-driving vehicle theme from last week, I would like to go into further detail about some of the other projects related to this endeavor. However, since the big companies get enough publicity already (Google. Mercedes, Toyota, Audi, Volkswagen, Ford, GM, Volvo etc), I am going to focus on some of the more small scale projects. These people prove that it is possible to do big things without insane funding.
+To continue on with the self-driving vehicle theme from last week, I would like to go into further detail about some of the other projects related to this endeavor. However, since the big companies get enough publicity already (Google, Mercedes, Toyota, Audi, Volkswagen, Ford, GM, Volvo etc), I am going to focus on some of the more small scale projects. These people prove that it is possible to do big things without insane funding.
 
 Chumdan Cha are a Korean based team who make Advanced Driver Assist Systems and lane changing tools. The goal of the company is to create safety devices to help reduce the amount of accidents that happen on the roadway. While their English side of the webpage is fairly small (understandably so, since they speak Korean), they do have some really cool demos on their youtube page. In one instance, a Mrs. Kim <a href="http://bit.ly/16mvyoQ">eats a cup of Ramen Noodles, and peels a fruit</a> whilst driving. Other videos show the car balancing itself to remain in a lane when the driver had their hands off the wheel. Really wish I could understand what they were saying in the video, but it is still worth a look.
 
