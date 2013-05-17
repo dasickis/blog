@@ -15,6 +15,8 @@ Finally aside from all the technical mumbo jumbo, the final issues that self-dri
 
 It is necessary to add that these are just some of the problems that we know of. Some of the biggest problems will be the ones that we do not even know about yet. These will be some of the biggest setbacks due to the fact that they have the ability to completely blindside us and can come from an array of different areas. Still, this is no different from any other technological advancement, including non-autonomous cars.
 
+If you can think any other potential obstacles please add them to the comment section below, we would love to hear from you!
+
 For more information on self-driving cars, check out our meetup page <a href="https://bitly.com/13D8ca3">https://bitly.com/13D8ca3</a>
 
 Our github <a href="bit.ly/12BNWWm">bit.ly/12BNWWm</a>
