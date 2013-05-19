@@ -25,6 +25,6 @@ If you can think any other potential obstacles please add them to the comment se
 
 For more information on self-driving cars, check out our meetup page <a href="https://bitly.com/13D8ca3">https://bitly.com/13D8ca3</a>
 
-Our github <a href="bit.ly/12BNWWm">bit.ly/12BNWWm</a>
+Our github <a href="http://bit.ly/16xwE1O">bit.ly/12BNWWm</a>
 
 Or follow us on twitter <a href="https://twitter.com/DerivativeD">@derivatived</a>
