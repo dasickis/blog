@@ -23,7 +23,7 @@ It is necessary to add that these are just some of the problems that we know of.
 
 If you can think any other potential obstacles please add them to the comment section below, we would love to hear from you!
 
-For more information on self-driving cars, check out our meetup page <a href="https://bitly.com/13D8ca3">https://bitly.com/13D8ca3</a>
+For more information on self-driving cars, check out our meetup page <a href="https://bitly.com/13D8ca3" class="meetup">https://bitly.com/13D8ca3</a>
 
 Our github <a href="http://bit.ly/16xwE1O" class="github">bit.ly/12BNWWm</a>
 
