@@ -13,7 +13,7 @@ First, MIT Senseable City Lab and Carlo Ratti Associati, an Italian Architecture
 
 <p align="center"><img src="http://guyism.com/wp-content/uploads/2013/04/beer-delivery-drone.jpg"/></p>
 
-Now if you are anything like me, you love music festivals. However, receiving beer at these things can be a real pain, because it not only involves a lengthy walk but you have to lose your space in the crowd. Typically, there are not people walking around selling beer a la a baseball game, so what do you do? <a href= "http://bit.ly/139UqMg"You have a robot fly it to you</a> that’s what!
+Now if you are anything like me, you love music festivals. However, receiving beer at these things can be a real pain, because it not only involves a lengthy walk but you have to lose your space in the crowd. Typically, there are not people walking around selling beer a la a baseball game, so what do you do? You have a robot fly it to you that’s what!
 
 The Oppikoppi festival in South Africa has debuted beer delivery helicopter does just that. Festival-goers place an order for beer, the machine then flies over to the GPS cooridinates of the person who made the order, and then drops the drink via parachute to that location. With the exploding popularity with these types of shows, this technology has a great deal of potential and I believe it’s only a matter of time before these start to become more and more common.
 
