@@ -21,7 +21,7 @@ These are just a few of the fun things involving machines and alcohol coming in 
 
 Have a fun and safe Memorial Day Weekend everyone!
 
-For more information on self-driving cars and machies, check out our meetup page <a href="https://bitly.com/13D8ca3" class="meetup">https://bitly.com/13D8ca3</a>
+For more information on self-driving cars and machines, check out our meetup page <a href="https://bitly.com/13D8ca3" class="meetup">https://bitly.com/13D8ca3</a>
 
 Our github <a href="http://bit.ly/16xwE1O" class="github">bit.ly/12BNWWm</a>
 
