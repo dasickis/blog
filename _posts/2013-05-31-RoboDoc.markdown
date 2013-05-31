@@ -5,7 +5,6 @@ category: posts
 ---
 {{page.title}} 
 
-RoboDoc
 
 The doctor’s office. The place where you are told to arrive fifteen minutes early, for someone who arrives forty five minutes late, and only speaks to you for five minutes. It can be both a scary and frustrating place, but it’s a necessary burden if you want to, you know, survive. Now imagine a world where many of the traditional doctors are beginning to be phased out. Where instead of a human practitioner giving you their opinion, machines give their diagnosis by factoring in different sets of data to come to a logical conclusion.
 
