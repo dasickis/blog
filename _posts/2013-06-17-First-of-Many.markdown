@@ -25,7 +25,7 @@ Let’s hope that the weather will be kind to us when that day comes!
 
 If you're interested, please join us: http://discuss.derivatived.com
 
-RSVP to our next meetup: http://www.meetup.com/Self-Driving-Vehicle/events/124211852/
+RSVP to our next meetup: [RSVP](http://www.meetup.com/Self-Driving-Vehicle/events/124211852/)
 
 Check out all the photos: http://www.flickr.com/photos/97124576@N02/
 Check out the other slideshows: http://www.slideshare.com/derivatived
