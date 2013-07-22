@@ -2,8 +2,7 @@
 layout: post
 title: Second Time's the Charm
 category: posts
----
-{{page.title}}  
+--- 
 
 ### Heat
 
@@ -25,8 +24,7 @@ Langel discussed how to capture data from the car using sensors and how this dat
 
 Following Langel was the very interesting engineer Jason Dorweiler. His talk was centered on what sensors made sense to use with the autonomous car, from a practical and financial standpoint.
 
-Jason, in his free time, built a few autonomous robots, including an autonomous RC car and an indoor robot powered by ROS. Of course, anyone can say they could do this, so Jason brought his robots in for a demonstration that showcased the very technologies we hope to bring to a car.<p align="center"><iframe width="560" height="315" src="//www.youtube.com/embed/c5Tcy-V8eQU" frameborder="0" allowfullscreen></iframe></p>
-
+Jason, in his free time, built a few autonomous robots, including an autonomous RC car and an indoor robot powered by ROS. Of course, anyone can say they could do this, so Jason brought his robots in for a demonstration that showcased the very technologies we hope to bring to a car.
 
 
 ### Next Steps
