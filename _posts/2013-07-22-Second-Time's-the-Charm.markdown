@@ -50,7 +50,7 @@ Maybe, by the next meetup, we will even have a law named after our project!
 
 If you're interested, please join our discussion: [Discuss](http://discuss.derivatived.com)
 
-RSVP to our next meetup: 
+RSVP to our next meetup: [Meetup](http://www.meetup.com/Self-Driving-Vehicle/events/131006602/)
 
 Check out all the photos: 
 
