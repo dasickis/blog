@@ -17,6 +17,8 @@ Professor Folsom accompanied by a video and presentation, talked about his proje
 
 <p align="center"><iframe width="480" height="302" src="http://www.ustream.tv/embed/14691117?v=3&amp;wmode=direct" scrolling="no" frameborder="0" style="border: 0px none transparent;">    </iframe></p>
 
+<script async class="speakerdeck-embed" data-id="f93dad60d7890130b0470265aace6639" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+
 ### Virtual Worlds
 
 Following Professor Folsom was Professor Rick Anderson from Rutgers University, an expert in using Arduino, printing 3D objects, and building virtual worlds. The Rutgers professor also brought a demonstration that showcased the virtual environment that attendees were able to play with after the presentation.
@@ -28,6 +30,8 @@ Following Professor Folsom was Professor Rick Anderson from Rutgers University, 
 After the two technical presentations, Praful discussed the timeline and business model behind the project with the meetup group. The goal for the community in the immediate future is to get as many members on board for the open source project, so that the framework for testing will be ready to go by early August. This point turned out to be one of Praful’s major points and was one that left an impression on all in attendance.
  
 <p align="center"><iframe width="560" height="315" src="http://www.youtube.com/embed/SFJveFWmzTg" frameborder="0" allowfullscreen></iframe></p>
+
+<script async class="speakerdeck-embed" data-id="7ff721f0d7860130a4f95e758bcd5b4e" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
 After the entire presentation (there was not even a slice of pizza left), attendees were able to mingle, test out the demonstrations themselves, and ask questions to the brains behind the project. When asked by a number of eager developers about the prospects of the project, Praful maintained that if all the short term goals are achieved, by next September, New Jersey will have a highway testable car.
 
