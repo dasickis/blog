@@ -18,7 +18,7 @@ DASH is an application that automatically tracks data about your driving habits 
 
 Langel discussed how to capture data from the car using sensors and how this data collection will help both the driver and the data collecters.
 
-
+<iframe src="http://www.slideshare.net/slideshow/embed_code/24620614" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="http://www.slideshare.net/derivatived/dash-demoselfdrivingvehiclemeetup" title="Dash Labs - Assembling Sensor Networks" target="_blank">Dash Labs - Assembling Sensor Networks</a> </strong> from <strong><a href="http://www.slideshare.net/derivatived" target="_blank">derivatived</a></strong> </div>
 
 ### Passion Project
 
