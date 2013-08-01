@@ -20,12 +20,17 @@ Langel discussed how to capture data from the car using sensors and how this dat
 
 <script async class="speakerdeck-embed" data-id="3a85a200d785013087d05e0fffb1f05d" data-ratio="1.29456384323641" src="//speakerdeck.com/assets/embed.js"></script>
 
+<iframe width="560" height="315" src="//www.youtube.com/embed/v5-kZjtTf8I" frameborder="0" allowfullscreen></iframe>
+
 ### Passion Project
 
 Following Langel was the very interesting engineer Jason Dorweiler. His talk was centered on what sensors made sense to use with the autonomous car, from a practical and financial standpoint.
 
 Jason, in his free time, built a few autonomous robots, including an autonomous RC car and an indoor robot powered by ROS. Of course, anyone can say they could do this, so Jason brought his robots in for a demonstration that showcased the very technologies we hope to bring to a car.
 
+<script async class="speakerdeck-embed" data-id="7ade8110d82701304c986e65229c9f4b" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/eWtJg6WCStA" frameborder="0" allowfullscreen></iframe>
 
 ### Next Steps
 
@@ -34,6 +39,8 @@ After the two technical presentations, Praful addressed the progress done so far
 A crowd funding campaign hosted on RocketHub for the project was also introduced and Praful encouraged everyone to fund and pass on the word. 
 
 <script async class="speakerdeck-embed" data-id="31939200d786013087ce5e0fffb1f05d" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/JxvhCrnSZOI" frameborder="0" allowfullscreen></iframe>
 
 ### Surprise
 
