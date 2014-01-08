@@ -6,7 +6,7 @@ category: posts
 
 ### Automated Toy Car
 
-For the ShereCar project, we at derivatived are launching development of a community driven automated toy car. A full self driving car is a daunting task with the technology at hand today, and costs can easily rise into six figures. ShereCar is a community friendly initiative, so a toy car product would be a more accessible platform as a starting point.
+For the ShereCar project, we at derivatived are refocusing our efforts on building a smaller, more accessible, automated toy car for the community. A full self driving car is a daunting task with the technology at hand today, and costs can easily rise into six figures. ShereCar is a community friendly initiative, so a toy car product would be a more accessible platform as a starting point.
 
 Over the course of the next few months, derivatived will assemble a prototype toy car that can be programmed with tasks through a web browser. The initial stage will have a RaspberryPi for control/processing, a RC car for movement/base, and a Kinect for sensing. A Flask server will allow users to access the toy car wirelessly, and the web server will double as the control center. Join us on our [Discourse forum](http://www.sherecar.org/) as we build and learn about putting together an autonomous toy car. Keep an eye on this blog, as we'll post frequent updates about the status of the project, as well as relevant technology involved.
 
@@ -16,8 +16,8 @@ Over the course of the next few months, derivatived will assemble a prototype to
 * Controlling the toy car: artificial intelligence to plan appropriate actions based on the interpreted world.
 * Communication: the website interface a user can use to interact with the toy car.
 
-### References
+### Links
 
-* [Discuss](http://discuss.derivatived.com)
-* [GitHub](https://github.com/Self-Driving-Vehicle)
-* [Meetup](http://www.meetup.com/Self-Driving-Vehicle/)
+* [Discourse Discussion Site](http://discuss.derivatived.com)
+* [GitHub Code Repository](https://github.com/Self-Driving-Vehicle)
+* [Meetup Webpage](http://www.meetup.com/Self-Driving-Vehicle/)
