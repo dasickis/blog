@@ -10,7 +10,7 @@ This is a basic summary about how we connected an Arduino Uno to an RC car's ser
 It's written from the viewpoint of someone unfamiliar with electrical work, so beginners might find this useful. <i>Note of caution</i>: electricity is dangerous, not just to people, but devices as well. "Undo" doesn't work on burned devices. Sensitive equipment can also be destroyed by static electricity, so it's a good idea to "ground" yourself beforehand to disperse any built up charge.
 
 The final result is to use an Arduino Uno to run our RC car's motors rather than the radio unit.
-<p align="center"><img src="/images/_posts/RC-car-wired.jpg" /></p>
+<p align="center">![RC Car with Arduino UNO]({{ site.url }}/assets/RC-car-wired.jpg)</p>
 
 ### RC Car Parts
 
