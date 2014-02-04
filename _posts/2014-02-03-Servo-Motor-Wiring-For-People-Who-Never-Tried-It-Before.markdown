@@ -10,7 +10,7 @@ This is a basic summary about how we connected an Arduino Uno to an RC car's ser
 It's written from the viewpoint of someone unfamiliar with electrical work, so beginners might find this useful. <i>Note of caution</i>: electricity is dangerous, not just to people, but devices as well. "Undo" doesn't work on burned devices. Sensitive equipment can also be destroyed by static electricity, so it's a good idea to "ground" yourself beforehand to disperse any built up charge.
 
 The final result is to use an Arduino Uno to run our RC car's motors rather than the radio unit.
-<p align="center">![RC Car with Arduino UNO]({{ site.url }}/assets/RC-car-wired.jpg)</p>
+<p align="center"><img src="/assets/RC-car-wired.jpg" /></p>
 
 ### RC Car Parts
 
@@ -40,14 +40,14 @@ To setup the Arduino to control the motor, start up the Arduino program on a con
 ### Controlling Both Throttle and Steering
 
 In our RC car, only the throttle motor is connected to the battery, so we'll need to connect power to both servos. For simplicity, we'll use a breadboard to connect everything. In a breadboard, the center lines are linked horizontally, and the outer lines are linked vertically.
-<p align="center"><img src="/images/_posts/breadboard-labeled.jpg" /></p>
+<p align="center"><img src="/assets/breadboard-labeled.jpg" /></p>
 
 Connect the ground wires together to the same breadboard group, and power wires to a separate breadboard group.
 
 In the Arduino program, add a second Servo motor variable and connect the steering motor's PWM signal to the new Arduino pin.
 
 Our end result looked like:
-<p align="center"><img src="/images/_posts/RC-car-wired-labeled.jpg" /></p>
+<p align="center"><img src="/assets/RC-car-wired-labeled.jpg" /></p>
 
 [Comments on Discourse](http://discuss.derivatived.com)
 
