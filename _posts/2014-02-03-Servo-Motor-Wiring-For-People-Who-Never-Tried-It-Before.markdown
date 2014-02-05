@@ -18,14 +18,17 @@ Looking at our RC car, the throttle and steering motors are connected together b
 
 Servo motors have three connections: power, ground, and signal. There is <b>no</b> guarenteed color scheme for what each wire pertains to, so it's a good idea to double check beforehand.
 Usually though, the colors are:
+
 * Dark (black/brown) for ground
 * Red for power
 * Other (white/orange) for signal
 
 When working with electrical wiring, remember that power (+) flows to ground (-). For basic wiring, always make sure power and ground are grouped separately. The only connection between the two should be the devices you wish to run.
+
 * Mixing multiple power sources is for advanced users, since electrical inequalities between them could cause damage.
 
 Keep the electrical formulas in mind, as there may be a need to add resistors for more sensitive components to reduce the amount of power sent. For example, LED lights generally require an additional resistor in serial or it will burn out.
+
 * Ohms Law: V (volts) = I (Current amperes) * R (resistance Ohms)
 * Power Equation: Power (watts) = I (Current amperes) * V (Volts)
 
@@ -49,7 +52,7 @@ In the Arduino program, add a second Servo motor variable and connect the steeri
 Our end result looked like:
 <p align="center"><img src="/assets/RC-car-wired-labeled.jpg" /></p>
 
-##### [Comments in Discourse](http://www.sherecar.org/t/blog-post-wiring-the-rc-car/107)
+#### [Comments in Discourse](http://www.sherecar.org/t/blog-post-wiring-the-rc-car/107)
 
 ### Links
 
