@@ -179,7 +179,7 @@ Remember to install "StandardFirmata" on the Arduino, so it can properly interpr
 * Control the RC Car
 
 #####[The Github repository for our RC Car Controller](https://github.com/Self-Driving-Vehicle/rc-car-controller)
-##### [Comments in Discourse](http://www.sherecar.org)
+##### [Comments in Discourse](http://www.sherecar.org/t/blog-post-controlling-a-rc-car-with-node-js/113)
 
 ### Links
 
