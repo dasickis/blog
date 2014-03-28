@@ -1,9 +1,9 @@
-markdown: redcarpet2
 pygments: true
 permalink: /posts/:title
 auto: true
-rdiscount:
-  extensions: [smart]
+markdown: redcarpet2
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
 
 name: derivatived
 phonetic: derivative&#183;d
