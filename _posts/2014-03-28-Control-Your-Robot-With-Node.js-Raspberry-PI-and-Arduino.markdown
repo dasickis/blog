@@ -83,35 +83,6 @@ Now, when **server.js** is running, someone can use a socket.io client to connec
 
 **index.html** needs to be set up to act as a socket.io client so a web browser can be used to send commands to the node server.
 
-```javascript
-
-
-<!--Using JQuery for button events-->
-<script src="js/jquery.min.js"></script>
-<!--Socket.io library-->
-<script src="/socket.io/socket.io.js"></script>
-<script>
-  $(document).ready(function() {
-    // Connect to the node.js server. Change the IP address to the actual node server location.
-    var socket = io.connect('http://localhost');
-    // When I've received 'robot connected' message from the socket.io server...
-    socket.on('robot connected', function (data) {
-      console.log(data);
-      // Send out a message to the server
-      socket.emit('robot command', { command: 'nothing' });
-    });
-    
-    // When the html buttons are clicked...
-    $('#turn-left').click(function() {
-      socket.emit('robot command', { command: turn-left });
-    });
-    $('#turn-right').click(function() {
-      socket.emit('robot command', { command: turn-right });
-    });
-  });
-</script>
-```
-
 Socket.io automatically generates the Javascript file required by the web browser, so you don't need to place this in the public folder. In our project on github, we use [Bootstrap](http://getbootstrap.com/) and [JQuery](http://jquery.com/) to boost the functionality of our web page. The Javascript libraries are placed in a **public -> js** folder.
 
 ### Johnny-five
