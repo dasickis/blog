@@ -84,9 +84,7 @@ Now, when **server.js** is running, someone can use a socket.io client to connec
 **index.html** needs to be set up to act as a socket.io client so a web browser can be used to send commands to the node server.
 
 ```javascript
-<!--Add two buttons a user can click-->
-<button type="button" id="turn-left">Turn Left</button>
-<button type="button" id="turn-right">Turn Right</button>
+
 
 <!--Using JQuery for button events-->
 <script src="js/jquery.min.js"></script>
