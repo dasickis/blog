@@ -52,10 +52,4 @@ In the Arduino program, add a second Servo motor variable and connect the steeri
 Our end result looked like:
 <p align="center"><img src="/assets/RC-car-wired-labeled.jpg" /></p>
 
-##### [Comments in Discourse](http://www.sherecar.org/t/blog-post-wiring-the-rc-car/107)
-
-### Links
-
-* [Discourse Discussion Site](http://discuss.derivatived.com)
-* [GitHub Code Repository](https://github.com/Self-Driving-Vehicle)
-* [Meetup Webpage](http://www.meetup.com/Self-Driving-Vehicle/)
+#### [Comments in Discourse](http://www.sherecar.org/t/blog-post-wiring-the-rc-car/107)

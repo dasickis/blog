@@ -178,11 +178,5 @@ Remember to install "StandardFirmata" on the Arduino, so it can properly interpr
 * Open a web browser to the Raspberry Pi's internet location
 * Control the RC Car
 
-#####[The Github repository for our RC Car Controller](https://github.com/Self-Driving-Vehicle/rc-car-controller)
-##### [Comments in Discourse](http://www.sherecar.org/t/blog-post-controlling-a-rc-car-with-node-js/113)
-
-### Links
-
-* [Discourse Discussion Site](http://discuss.derivatived.com)
-* [GitHub Code Repository](https://github.com/Self-Driving-Vehicle)
-* [Meetup Webpage](http://www.meetup.com/Self-Driving-Vehicle/)
+#### [Comments in Discourse](http://www.sherecar.org/t/blog-post-controlling-a-rc-car-with-node-js/113)
+##### [The Github repository for our RC Car Controller](https://github.com/Self-Driving-Vehicle/rc-car-controller)
