@@ -136,22 +136,22 @@ board.on("ready", function() {
   arduinoServos = {
     steering: new five.Servo({
       pin: 9,             // Send signal through Arduino Pin #9
-      range: [0, 180],    // Servo value ranges: 0-180 (Check your own motors for actual range)
-      type: "standard",   // Default: "standard". Use "continuous" for continuous rotation servos
-      startAt: 90,        // if you would like the servo to immediately move to a degree
-      center: false       // If true moves the servo to the center of the range instead of starAt
+      range: [0, 180],    // Servo value ranges: 0-180 (Check motors for actual range)
+      type: "standard",   // Default "standard". "continuous" for cont. rotation servos
+      startAt: 90,        // if you would like the servo to immediately move to degree
+      center: false       // If true moves servo to center of range instead of starAt
     })
   };
   steering = arduinoServos.steering;
 
-  // Inject the `servo` hardware into instance's context; allows direct command line access
+  // Inject the `servo` hardware into context; allows direct command line access
   board.repl.inject({
     s: arduinoServos
   });
 });
 
 //... In the section: socket.on('robot command', function (data)...
-// Update the Arduino motor values if the received command is a 'turn-left' or 'turn-right'
+// Update Arduino motor values if the received command is a 'turn-left' or 'turn-right'
 var command = data.command;
 if (command == 'turn-left') {
   arduinoServos.steering.to(20);
@@ -179,7 +179,7 @@ Remember to install "StandardFirmata" on the Arduino, so it can properly interpr
 * Control the RC Car
 
 #####[The Github repository for our RC Car Controller](https://github.com/Self-Driving-Vehicle/rc-car-controller)
-##### [Comments in Discourse](http://www.sherecar.org)
+##### [Comments in Discourse](http://www.sherecar.org/t/blog-post-controlling-a-rc-car-with-node-js/113)
 
 ### Links
 
