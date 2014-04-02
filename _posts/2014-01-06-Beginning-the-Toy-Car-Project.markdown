@@ -16,10 +16,4 @@ Over the course of the next few months, derivatived will assemble a prototype to
 * Controlling the toy car: artificial intelligence to plan appropriate actions based on the interpreted world.
 * Communication: the website interface a user can use to interact with the toy car.
 
-##### [Comments in Discourse](http://www.sherecar.org/t/blog-post-beginning-the-toy-car-project/98)
-
-### Links
-
-* [Discourse Discussion Site](http://discuss.derivatived.com)
-* [GitHub Code Repository](https://github.com/Self-Driving-Vehicle)
-* [Meetup Webpage](http://www.meetup.com/Self-Driving-Vehicle/)
+##### [Talk about this post in Discourse](http://www.sherecar.org/t/blog-post-beginning-the-toy-car-project/98)
