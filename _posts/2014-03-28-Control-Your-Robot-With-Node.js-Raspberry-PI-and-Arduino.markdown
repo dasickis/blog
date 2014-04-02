@@ -7,6 +7,8 @@ category: posts
 
 Advancements in Javascript, node.js, have simplified communication between robot and user. Using two choice nodejs libraries, socket.io and johnny-five, you can quickly put together a system to control a robot using a web browser.
 
+<p align="center"><img src="/assets/nodebots-presentation-car.jpeg" /></p>
+
 ### Physical Components We Used
 * Raspberry Pi - the micro computer to operate everything
  * Though we used a Raspberry Pi to host the node server, any computer with node.js installed will suffice
