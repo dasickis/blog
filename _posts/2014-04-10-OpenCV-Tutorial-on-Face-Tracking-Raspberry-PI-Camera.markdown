@@ -101,6 +101,7 @@ Once we have the location of a face in an image, we can pass servo commands to n
 ```
 
 For the node server to process the command, we'll just keep it simple with GET calls translating to johnny-five Arduino commands.
+
 ```javascript
 // Initialize express and server
 var express = require('express')
@@ -140,7 +141,6 @@ app.get('/command/', function (req, res) {
     });
   }
 });
-
 ```
 
 ### Additional Information
