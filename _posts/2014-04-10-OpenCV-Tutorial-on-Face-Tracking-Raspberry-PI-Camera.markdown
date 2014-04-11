@@ -26,7 +26,7 @@ This tutorial covers the use of on open source computer vision library (OpenCV) 
  * sudo pip install numpy
 
 ### PiCamera
-To simplify things, we're going to use a python library for the Raspberry Pi Camera, called [picamera](http://picamera.readthedocs.org/). The Recipies provided by the documentation are a useful reference. For now, we'll just have the camera take a picture and covert it into an OpenCV friendly format.
+To simplify things, we're going to use a python library for the Raspberry Pi Camera, called [picamera](http://picamera.readthedocs.org/). The Recipies provided by the documentation are a useful reference. For now, we'll just have the camera take a picture and covert it into an OpenCV friendly format. Create a **pi_opencv.py** file to run this python script.
 
 ```python
 import io
@@ -55,7 +55,7 @@ image = cv2.imdecode(data, 1)
 
 To recognize faces using OpenCV, we're going to use a method called "Cascading Classifiers". Simply put, the algorithm "cascades" through a series of rectanges around a given image, and checks to see if there is a match with the "classifier".
 
-OpenCV provides from cascade files in their [source code](https://github.com/Itseez/opencv/tree/master/data). Two common cascade files are "Haar" and "LBP". Unlike LBP, Haar files use decimal numbers, so it is slower but more accurate.
+OpenCV provides from cascade files in their [source code](https://github.com/Itseez/opencv/tree/master/data). Two common cascade files are "Haar" and "LBP". Unlike LBP, Haar files use decimal numbers, so it is slower but more accurate. Let's add this in the **pi_opencv.py** file.
 
 ```python
 // After: image = cv2.imdecode(data, 1)
@@ -80,7 +80,7 @@ cv2.destroyAllWindows()
 ```
 
 ### Adding Commands
-Once we have the location of a face in an image, we can pass servo commands to node.js/johnny-five based on its location in relation to the image. Turn left if the face is left, and so on.
+Once we have the location of a face in an image, we can pass servo commands to node.js/johnny-five based on its location in relation to the image. Turn left if the face is left, and so on. First, add on to **pi_opencv.py**
 
 ```python
 #AFTER: cv2.rectangle(image,(x,y),(x+w,y+h),(255,0,0),2)
@@ -100,7 +100,8 @@ Once we have the location of a face in an image, we can pass servo commands to n
     urllib2.urlopen(server_address+'/command/?command='+command)
 ```
 
-For the node server to process the command, we'll just keep it simple with GET calls translating to johnny-five Arduino commands.
+Create a **server.js** node server to process the command. We'll just keep it simple with GET calls translating to johnny-five Arduino commands.
+
 
 ```javascript
 // Initialize express and server
@@ -150,4 +151,4 @@ The Github repository for our [RC Car Controller](https://github.com/Self-Drivin
 
 Some OpenCV-Python [Tutorials](http://docs.opencv.org/trunk/doc/py_tutorials/py_tutorials.html)
 
-##### [Comments in Discourse](http://www.sherecar.org/)
+##### [Comments in Discourse](http://www.sherecar.org/t/blog-post-opencv-with-an-rc-car/115)
