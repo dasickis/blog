@@ -24,5 +24,6 @@ Also known as hackfests, hackathons are short, intense events where a large gath
 ### Makerfaires
 
 Makerfaires are events for makers to demonstrate their projects. They usually consist of numerous booths manned by maker organizations, with events such as guest lectures occuring throughout the event. Some of the larger faires event even host competitions like modified power wheel racing. Once example is the World Maker Faire New York 2013.
+<p align="center"><img src="/assets/powerwheel_racing.jpg" /></p>
 
 There are also smaller mini faires, such as the Newark mini-makerfaire April 5 2014.
