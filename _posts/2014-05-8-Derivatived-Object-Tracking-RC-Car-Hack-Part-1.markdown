@@ -46,4 +46,4 @@ We also 3d printed some generic mounts for the Raspberry Pi and Arduino UNO.
 
 The Raspberry Pi and Arduino UNO are currently taped onto the chassis of the RC Car. The camera mount is taped on the front of the car, though some consideration is being made to shift it further back.
 
-##### [Comments in Discourse](http://www.sherecar.org/t/)
+##### [Comments in Discourse](http://www.sherecar.org/t/blog-post-opencv-with-an-rc-car/115)
