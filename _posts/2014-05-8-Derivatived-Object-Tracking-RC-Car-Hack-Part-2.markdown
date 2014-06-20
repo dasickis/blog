@@ -21,7 +21,11 @@ Node libraries we used (see <package.json>):
 You can install these libraries automatically with node.js package manager in the package.json folder (npm install). Two major segments to consider are johnny-five for Arduino control and socket.io communication.
 
 ```javascript
-
+arduinoServos.steering.to(value);
+  
+board.repl.inject({
+  s: arduinoServos
+});
 ```
 
 See one of our previous posts on using [Johnny-five to easily control an attached Arduino](http://blog.derivatived.com/posts/Control-Your-Robot-With-Node.js-Raspberry-PI-and-Arduino/). To summarize, two servos (steering and throttle) are maintained the by the server. Those servo structures are changed to reflect commands, and pushed to the Arduino. We sometimes test without an arduino attached, so we've added command line arguments to skip that option. Socket.io is used to provide real time communication between user and server.
@@ -127,4 +131,4 @@ Resource: tutorial used for current cascade object tracking
 http://docs.opencv.org/trunk/doc/py_tutorials/py_objdetect/py_face_detection/py_face_detection.html#face-detection
 
 
-##### [Comments in Discourse](http://www.sherecar.org/t/blog-post-opencv-with-an-rc-car/115)
+##### [Comments in Discourse](http://www.sherecar.org/t/controlling-a-rc-car-with-node-js/113)
