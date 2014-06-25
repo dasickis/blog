@@ -42,4 +42,4 @@ Keep in mind that the making the interlocking pieces exactly equal can result in
 
 Another description of laser cutters: http://www.instructables.com/id/How-to-Use-a-Laser-Cutter/
 
-##### [Comments in Discourse](http://www.sherecar.org/)
+##### [Comments in Discourse](http://www.sherecar.org/t/blog-post-fun-stuff/124)
