@@ -7,7 +7,7 @@ category: posts
 
 ### Introduction
 
-This post is about the usage of lasers to cut out shapes or burn in images. It’s a little unrelated to our focus on automated robotics, but laser cutting can be a quick and fun way to make things. Makerspace sized laser cutters are still a bit rare; I’ll be talking about the machine found in the (Rutgers Livingston Makerspace) [http://njmakerspace.org/]
+This post is about the usage of lasers to cut out shapes or burn in images. It’s a little unrelated to our focus on automated robotics, but laser cutting can be a quick and fun way to make things. Makerspace sized laser cutters are still a bit rare; I’ll be talking about the machine found in the [Rutgers Livingston Makerspace](http://njmakerspace.org/)
 <p align="center"><img src="/assets/lasercutter/laser-cutter.jpg" /></p>
 
 ### Software
