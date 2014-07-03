@@ -45,7 +45,7 @@ We wanted the robot controlling to be over the network, so we used the rc-car-co
 <p align="center"><img src="/assets/robot/robot-connect-at-nui.png" /></p>
 Node.js - Raspberry Pi - Arduino UNO - Servo Motors - Hand
 
-The server receives socket.io or HTTP post calls to determine what position to set each finger to. The Kinect programs can broadcast commands to the node.js server at an overwhelming pace, so rate limiters were used to mitigate information floods. **hands.js**
+The server receives socket.io or HTTP post calls to determine what position to set each finger to. The Kinect programs can broadcast commands to the node.js server at an overwhelming pace, so rate limiters were used to mitigate information floods. In **hands.js**:
 
 ```javascript
   // example servo setting - for use with Johnny-five
