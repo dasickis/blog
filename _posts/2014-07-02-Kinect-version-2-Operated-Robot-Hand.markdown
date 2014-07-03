@@ -3,7 +3,6 @@ layout: post
 title: Kinect v2 Operated Robot Hand
 category: posts
 ---
-{{page.title}}
 
 <p align="center"><img src="/assets/robot/robot-hand-at-nui.png" /></p>
 
@@ -27,25 +26,24 @@ For object detection, we applied several algorithms to remove the background and
 
 For real time communication, we used a socket.io client called [socketio4net](http://socketio4net.codeplex.com/). We also built an HTTP post system as a backup communication platform.
 
-```cs
+```
 // Be sure to have installed/imported the socketio4net library
 Client socket;
 
 // Inside the initialization function:
     socket = new Client("http://127.0.0.1/"); // change to socket.io server
     socket.Opened += SocketOpened;
-// ---
 
 // When a message should be sent to the server
     socket.Emit("command", "manual-{0}-{1}-{2}-{3}-{4}", th, in, mi, ri, pi);
 ```
 
-## The Hand
+### The Hand
 
 We wanted the robot controlling to be over the network, so we used the rc-car-controller node server code as a base. A Raspberry pi ran this server, connected to an Arduino Uno. The Arduino controls five servo motors (one for each finger), which pull strings attached to the robot hand’s fingers.
 
 <p align="center"><img src="/assets/robot/robot-connect-at-nui.png" /></p>
-Node.js -> Raspberry Pi -> Arduino UNO -> Servo Motors -> Hand
+Node.js - Raspberry Pi - Arduino UNO - Servo Motors - Hand
 
 The server receives socket.io or HTTP post calls to determine what position to set each finger to. The Kinect programs can broadcast commands to the node.js server at an overwhelming pace, so rate limiters were used to mitigate information floods.
 
