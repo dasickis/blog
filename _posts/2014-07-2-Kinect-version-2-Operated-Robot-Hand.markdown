@@ -14,7 +14,7 @@ We specifically coded the finger controlling server, which you can view on our [
 
 The hack team we were part of centered our efforts on affecting a robot hand through the Kinect over a network. Thus, our hack project consists of three components: a server that receives commands and actuates the connected hand, a Kinect powered finger detector, and a Kinect powered object sensor.
 
-<p align="center"><img src="/assets/robot/robot-trial-at-nui" /></p>
+<p align="center"><img src="/assets/robot/robot-trial-at-nui.png" /></p>
 
 ### The Kinect
 
@@ -89,6 +89,5 @@ Look in <hands.js>
 ```
 
 With this the Kinect can interpret the finger positions of a person, then send those values over the network to a server to manipulate the robot hand.
-<p align="center"><img src="/assets/robot/robot-trial-at-nui.png" /></p>
 
 ##### [Comments in Discourse](http://www.sherecar.org/t/blog-post-fun-stuff/124)
