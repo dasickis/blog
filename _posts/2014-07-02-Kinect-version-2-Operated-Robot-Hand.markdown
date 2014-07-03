@@ -26,7 +26,7 @@ For object detection, we applied several algorithms to remove the background and
 
 For real time communication, we used a socket.io client called [socketio4net](http://socketio4net.codeplex.com/). We also built an HTTP post system as a backup communication platform.
 
-```
+```cs
 // Be sure to have installed/imported the socketio4net library
 Client socket;
 
@@ -48,6 +48,7 @@ Node.js - Raspberry Pi - Arduino UNO - Servo Motors - Hand
 The server receives socket.io or HTTP post calls to determine what position to set each finger to. The Kinect programs can broadcast commands to the node.js server at an overwhelming pace, so rate limiters were used to mitigate information floods.
 
 Look in **hands.js**
+
 ```javascript
   // example servo setting - for use with Johnny-five
   var thumbServo = {
