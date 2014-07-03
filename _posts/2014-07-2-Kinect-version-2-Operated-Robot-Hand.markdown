@@ -26,7 +26,7 @@ For object detection, we applied several algorithms to remove the background and
 
 For real time communication, we used a socket.io client called [socketio4net](http://socketio4net.codeplex.com/). We also built an HTTP post system as a backup communication platform.
 
-```C#
+```cs
 // Be sure to have installed/imported the socketio4net library
 Client socket;
 
