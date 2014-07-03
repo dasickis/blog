@@ -88,4 +88,4 @@ The server receives socket.io or HTTP post calls to determine what position to s
 
 With this the Kinect can interpret the finger positions of a person, then send those values over the network to a server to manipulate the robot hand.
 
-##### [Comments in Discourse](http://www.sherecar.org/t/robot-actuation/125)
+
