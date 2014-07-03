@@ -3,6 +3,7 @@ layout: post
 title: Kinect v2 Operated Robot Hand
 category: posts
 ---
+{{page.title}}
 
 <p align="center"><img src="/assets/robot/robot-hand-at-nui.png" /></p>
 
