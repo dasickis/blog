@@ -40,11 +40,11 @@ You can connect the micro USB to an A/C adapter, another computer, or even a pow
 
 ### Installing the Software
 
-Assuming you haven’t gotten a pre-installed SD card, you’ll need to install an operating system on the SD card to use the Raspberry Pi. The company website provides a nice selection to choose from (http://www.raspberrypi.org/downloads/). In my case, I used Raspbian, the bog standard default. The device’s components aren’t that strong, so certain operating systems can’t run on it.
+Assuming you haven’t gotten a pre-installed SD card, you’ll need to install an operating system on the SD card to use the Raspberry Pi. The company website provides a nice [selection](http://www.raspberrypi.org/downloads/) to choose from. In my case, I used Raspbian, the bog standard default. The device’s components aren’t that strong, so certain operating systems can’t run on it.
 
-A warning: using NOOBs to install your operating system can insert presets you may not want such as forced HDMI, preventing use the RCA video output. If you’ve already done so and it’s already “helpfully” put in unwanted settings, you can modify it through the config.txt file (http://www.raspberrypi.org/documentation/configuration/config-txt.md). The added settings are generally added at the bottom of the file.
+A warning: using NOOBs to install your operating system can insert presets you may not want such as forced HDMI, preventing use the RCA video output. If you’ve already done so and it’s already “helpfully” put in unwanted settings, you can modify it through the [config.txt file](http://www.raspberrypi.org/documentation/configuration/config-txt.md). The added settings are generally added at the bottom of the file.
 
-Once you’ve downloaded the operating system to a computer with an SD card port, the next step is to insert the SD card and format it. The SD Association (http://www.sdcard.org/) provides a SD Formatter for Window and Apple computers. Once you’ve formatted the card, you can drag the downloaded operating system into the SD card.
+Once you’ve downloaded the operating system to a computer with an SD card port, the next step is to insert the SD card and format it. The [SD Association](http://www.sdcard.org/) provides a SD Formatter for Window and Apple computers. Once you’ve formatted the card, you can drag the downloaded operating system into the SD card.
 
 Note: I’ve encountered a problem with the formatter not properly freeing all the available memory. Be sure the formatter is set to do a full format, and I’ve had to use a previous version of NOOBs for it to access all the memory on the card.
 
@@ -54,7 +54,7 @@ After the files have been copied to the card, you can transfer the card to the R
 
 You can skip this step if you plan on using the Ethernet cable instead of a USB wireless adapter.
 
-The newer versions of Raspberry Pi should be able to automatically detect your wireless device. Otherwise, you may have to Google your wifi model + Raspberry Pi. Regardless, you’ll need to set up the wireless configuration. The Raspberry Pi website now has documention on this step (http://www.raspberrypi.org/documentation/configuration/wireless/README.md). 
+The newer versions of Raspberry Pi should be able to automatically detect your wireless device. Otherwise, you may have to Google your wifi model + Raspberry Pi. Regardless, you’ll need to set up the wireless configuration. The [Raspberry Pi website](http://www.raspberrypi.org/documentation/configuration/wireless/README.md) now has documention on this step. 
 
 First, make sure the network interface file is correctly configured:
 
@@ -96,13 +96,13 @@ On a raspberry pi, the wireless USB dongle will utilize power saving, which can 
  * options 8192cu rtw_power_mgnt=0 rtw_enusbss=1 rtw_ips_mode=1
 * Some other guides state to set rtw_enusbss=0, use whatever works.
 
-Note: you may also want to update the Raspberry Pi firmware: there exists an easy tool to do so (https://github.com/Hexxeh/rpi-update)
+Note: you may also want to update the Raspberry Pi firmware: there exists an easy tool to do so at (https://github.com/Hexxeh/rpi-update)
 
 * sudo apt-get install rpi-update
 * sudo rpi-update
 
 Extra Credit:
-It can be a hassle adding network details for each new location, so some have setup the Raspberry Pi as an ad-hoc wireless hotspot instead. Possibly more details from me in a future post, but for now, here’s a link to a [tutorial](http://www.novitiate.co.uk/?p=183).
+It can be a hassle adding network details for each new location, so some have setup the Raspberry Pi as an ad-hoc wireless hotspot instead. Possibly more details from me in a future post, but for now, here’s a [link to a tutorial](http://www.novitiate.co.uk/?p=183).
 
 ### Install Node.js
 
