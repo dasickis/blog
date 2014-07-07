@@ -6,7 +6,8 @@ category: posts
 
 The Raspberry Pi is useful for teaching about computers. However, the bare bones nature of the device leads to an extensive setup requirement.
 
-First, Raspberry Pi does provides a guide for getting it up and running:
+First, Raspberry Pi does provides a guide for getting it up and running
+
 * http://www.raspberrypi.org/help/quick-start-guide/
 * http://www.raspberrypi.org/documentation/
 
@@ -17,6 +18,7 @@ Note: Much of this article is also applicable to other pocket sized single board
 ### Peripheral Needs
 
 A desktop needs to be connected to a lot of stuff to work, and the Raspberry Pi is no exception. Here’s a list of things you’ll need, and what they’re used for:
+
 * SD Card (> 4MB)
  * Store data and the operating system
 * Micro USB cable (possibly with A/C adapter)
@@ -55,6 +57,7 @@ You can skip this step if you plan on using the Ethernet cable instead of a USB 
 The newer versions of Raspberry Pi should be able to automatically detect your wireless device. Otherwise, you may have to Google your wifi model + Raspberry Pi. Regardless, you’ll need to set up the wireless configuration. The Raspberry Pi website now has documention on this step (http://www.raspberrypi.org/documentation/configuration/wireless/README.md). 
 
 First, make sure the network interface file is correctly configured:
+
 * sudo nano /etc/network/interfaces
 
 ```
@@ -71,6 +74,7 @@ iface default inet dhcp
 ```
 
 The network details can then be added to the wpa_supplicant.conf:
+
 * sudo nano etc/wpa_supplicant/wpa_supplicant.conf
 
 ```
@@ -84,6 +88,7 @@ An alternative solution is to run the built-in Desktop application “startx” 
 
 On a raspberry pi, the wireless USB dongle will utilize power saving, which can result in a dropped connection, so a configuration file should be created to turn that feature off.
 [Tutorial site](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-3-network-setup/test-and-configure#fixing-wifi-dropout-issues)
+
 * Create the config file:
  * sudo nano /etc/modprobe.d/8192cu.conf
 * Paste in the file:
@@ -92,6 +97,7 @@ On a raspberry pi, the wireless USB dongle will utilize power saving, which can 
 * Some other guides state to set rtw_enusbss=0, use whatever works.
 
 Note: you may also want to update the Raspberry Pi firmware: there exists an easy tool to do so (https://github.com/Hexxeh/rpi-update)
+
 * sudo apt-get install rpi-update
 * sudo rpi-update
 
@@ -102,11 +108,13 @@ It can be a hassle adding network details for each new location, so some have se
 
 The Raspberry Pi was built to teach about python and computers, so it already has numerous programs and resources available for it. Because I like making things harder for myself, I’ll be using Javascript Node.js instead. There are several potential ways to install node.js on a Raspberry Pi, and as the device gains popularity, and simple command may eventually be provided to complete this step. As Raspbian is an offshoot of Debian, installation instructions for that OS are generally applicable.
 
-First, all the existing programs should be updated on the Raspberry Pi:
+First, all the existing programs should be updated on the Raspberry Pi
+
 * sudo apt-get upgrade
 * sudo apt-get update
 
 Then, I download the latest node.js as a Debian package and install it
+
 * sudo wget http://node-arm.herokuapp.com/node_latest_armhf.deb
 * sudo dpkg -i node_latest_armhf.deb
 
@@ -126,6 +134,7 @@ console.log('Server running at http://127.0.0.1:80/');
  * Ideally you use a higher port number, like 1337 or 8000
 
 Bonus: if you want to use the Raspberry Pi’s GPIO pins, consider disabling the blacklists for them in the /etc/modules files.
+
 * sudo nano /etc/modules
  * #blacklist spi-bcm2708
 
