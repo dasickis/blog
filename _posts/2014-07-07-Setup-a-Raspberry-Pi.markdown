@@ -110,8 +110,8 @@ The Raspberry Pi was built to teach about python and computers, so it already ha
 
 First, all the existing programs should be updated on the Raspberry Pi
 
-* sudo apt-get upgrade
 * sudo apt-get update
+* sudo apt-get upgrade
 
 Then, I download the latest node.js as a Debian package and install it
 
